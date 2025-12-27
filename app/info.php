@@ -18,7 +18,7 @@ if (isset($_GET['word'])) {
     if ($res && $res->num_rows > 0) {
         echo $res->fetch_assoc()['machine_word'];
     } else {
-        echo "Term not found";
+        echo "Term not founddd";
     }
 }
 
